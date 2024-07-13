@@ -119,7 +119,7 @@ const Me = () => {
   };
 
   return (
-    <div className="bg-gray-100 w-full max-w-lg mx-auto p-5 border border-gray-300 rounded-lg">
+    <div className="bg-gray-100 w-full max-w-lg mx-auto  p-5 border border-gray-300 rounded-lg">
       <div className="space-y-4 mb-4">
         {messages.map((message, index) => (
           <div
@@ -140,7 +140,7 @@ const Me = () => {
           </div>
         ))}
       </div>
-      <div className="flex mt-4">
+      <div className="flex mt-[4rem]">
         <input
           type="text"
           className="flex-1 p-2 border border-gray-300 rounded-lg text-black"
